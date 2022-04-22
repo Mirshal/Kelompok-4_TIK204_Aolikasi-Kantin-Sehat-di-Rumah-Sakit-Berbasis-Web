@@ -1,5 +1,5 @@
-<?php
-include '../koneksi.php';
+<?php 
+include '../koneksi.php';   
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@ include '../koneksi.php';
 	<title>Login E-CANHEAL</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
+<!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="../logo.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/bootstrap/css/bootstrap.min.css">
@@ -17,13 +17,13 @@ include '../koneksi.php';
 	<link rel="stylesheet" type="text/css" href="../asset/login/fonts/iconic/css/material-design-iconic-font.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/animate/animate.css">
-<!--===============================================================================================-->
+<!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/select2/select2.min.css">
-<!--===============================================================================================-->
+<!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="../asset/login/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../asset/login/css/util.css">
@@ -31,7 +31,7 @@ include '../koneksi.php';
 <!--===============================================================================================-->
 </head>
 <body>
-
+	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -71,11 +71,12 @@ include '../koneksi.php';
 						</a>
 					</div>
 				</form>
-				<?php
+				<?php 
 				if (isset($_POST['submit'])) {
 					$username = mysqli_escape_string($conn,$_POST['username']);
 					$password = mysqli_escape_string($conn,$_POST['password']);
 
+					$password = md5($password);
 					$query=$conn->query("SELECT * FROM admin WHERE username='$_POST[username]' AND password='$password'");
 					$result=$query->num_rows;
 					if ($result==1) {
@@ -95,10 +96,10 @@ include '../koneksi.php';
 			</div>
 		</div>
 	</div>
-
+	
 
 	<div id="dropDownSelect1"></div>
-
+	
 <!--===============================================================================================-->
 	<script src="../asset/login/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
