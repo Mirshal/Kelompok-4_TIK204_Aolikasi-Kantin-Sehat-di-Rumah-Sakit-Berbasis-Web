@@ -173,7 +173,7 @@ _________________________________________________________ -->
                     <div class="icon"><i class="fa fa-thumbs-up"></i>
                     </div>
                     <h3>Informasi Lengkap</h3>
-                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin area Rumah Sakit yang telah terverifikasi</p>
+                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin Rumah Sakit yang telah terverifikasi</p>
                 </div>
             </div>
         </div>
