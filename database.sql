@@ -120,6 +120,9 @@ CREATE TABLE `produk` (
   `id_warung` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- masukkan barang
+INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok`, `foto_produk`, `deskripsi_produk`, `likes`, `id_warung`) VALUES
+(1, 'Salad', 15000, 4, 'salad.jpg', 'Salad terdiri dari tomat, selada, timun, wortel, madu, minyak zaitun, dan campuran mayonaise', 3, 1);
 --
 -- struktur data untuk table `warung`
 --
