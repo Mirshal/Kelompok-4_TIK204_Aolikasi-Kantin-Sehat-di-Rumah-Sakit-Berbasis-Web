@@ -173,7 +173,7 @@ _________________________________________________________ -->
                     <div class="icon"><i class="fa fa-thumbs-up"></i>
                     </div>
                     <h3>Informasi Lengkap</h3>
-                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin area Rumah Sakit yang telah terverifikasi</p>
+                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin Rumah Sakit yang telah terverifikasi</p>
                 </div>
             </div>
         </div>
@@ -279,10 +279,10 @@ _________________________________________________________ -->
  <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© E-CANHEAL 2018</p>
+            <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by E-CANHEAL
+            <p class="pull-right">Alright Reserved by E-CANHEAL Team
             </p>
         </div>
     </div>
