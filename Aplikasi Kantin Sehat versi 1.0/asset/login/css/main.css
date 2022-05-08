@@ -305,7 +305,7 @@ iframe {
 /*---------------------------------------------*/
 .btn-show-pass {
   font-size: 15px;
-  color: #10fa08;
+  color: #ffcb00;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -374,7 +374,7 @@ iframe {
   background: #a64bf4;
   background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
   background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(right, #ffef04, #ff00ef, #00dbff, #00dbff);
   background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
   top: 0;
   left: -100%;
@@ -388,7 +388,7 @@ iframe {
 .login100-form-btn {
   font-family: Poppins-Medium;
   font-size: 15px;
-  color: #fff;
+  color: #fffdfd;
   line-height: 1.2;
   text-transform: uppercase;
 
