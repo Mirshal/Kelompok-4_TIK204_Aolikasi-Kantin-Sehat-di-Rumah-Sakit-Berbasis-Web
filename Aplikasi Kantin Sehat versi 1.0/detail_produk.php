@@ -40,7 +40,7 @@ if (isset($_POST['unliked'])) {
     <meta name="keywords" content="">
 
     <title>
-        E-Del : Information Delivery Order Tel-U
+        E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
 
     <meta name="keywords" content="">
