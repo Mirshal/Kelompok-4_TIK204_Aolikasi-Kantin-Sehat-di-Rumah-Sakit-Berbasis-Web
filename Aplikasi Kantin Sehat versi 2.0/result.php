@@ -141,7 +141,7 @@
                     <div class="box">
                         <h1>Detail Pembelian : </h1>
 
-                        <p class="lead">Berikut rincian pembelian anda  </p>
+                        <p class="lead">Berikut rincian pembelian makanan anda  </p>
 
                         <div class="table-responsive">
                             <table class="table">
