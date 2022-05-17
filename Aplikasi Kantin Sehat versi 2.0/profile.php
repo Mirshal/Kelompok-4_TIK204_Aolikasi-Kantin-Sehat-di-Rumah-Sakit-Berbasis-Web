@@ -12,7 +12,7 @@ include 'koneksi.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <title>
-        E-CANHEAL: INFORMATION DELIVERING ORDER FOOD
+        E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
     <meta name="keywords" content="">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
@@ -326,7 +326,7 @@ include 'koneksi.php';
                 <p class="pull-left">© E-CANHEAL 2022</p>
             </div>
             <div class="col-md-6">
-                <p class="pull-right">Alright Reserved by CANHEALTH
+                <p class="pull-right">Alright Reserved by CANHEAL
                 </p>
             </div>
         </div>
