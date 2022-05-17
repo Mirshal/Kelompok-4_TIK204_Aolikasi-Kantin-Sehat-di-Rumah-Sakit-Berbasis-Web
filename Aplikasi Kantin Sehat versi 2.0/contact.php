@@ -16,7 +16,7 @@ include 'protect.php';
     <title>
          E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
-        E-CANHEAL : Information Delivery Food Order by E-CANHEAL
+        
     <meta name="keywords" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
