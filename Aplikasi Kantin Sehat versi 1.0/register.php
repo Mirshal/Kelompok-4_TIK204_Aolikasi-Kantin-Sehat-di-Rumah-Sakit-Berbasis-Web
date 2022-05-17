@@ -1,4 +1,4 @@
-<?php 
+<?php ecanheal
 	include 'koneksi.php';
 ?>
 <!DOCTYPE html>
