@@ -143,8 +143,8 @@ include 'protect.php';
                         <div class="row">
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-map-marker"></i> Alamat</h3>
-                                <p>Telkom University
-                                    <br>Jalan Telekomunikasi No.1
+                                <p>Universitas Syiah Kuala
+                                    <br> Jl. Teuku Nyak Arief No.441
                                     <br>Terusan Buah Batu
                                     <br>Dayeuhkolot
                                     <br>
