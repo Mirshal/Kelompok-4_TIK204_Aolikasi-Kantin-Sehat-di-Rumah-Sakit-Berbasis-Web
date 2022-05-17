@@ -1,4 +1,4 @@
-<?php 
+<?php a
 include 'koneksi.php';
 $judul = strip_tags($_GET['judul']);
 
