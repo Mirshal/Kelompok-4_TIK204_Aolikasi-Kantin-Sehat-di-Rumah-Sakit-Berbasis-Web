@@ -148,7 +148,7 @@ include 'protect.php';
                                     <br>Kopelma Darussalam
                                     <br>Syiah Kuala
                                     <br>
-                                    <strong>Bandung</strong>
+                                    <strong>Banda Aceh</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
