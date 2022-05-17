@@ -163,7 +163,7 @@ include 'protect.php';
                                 <h3><i class="fa fa-envelope"></i> Email</h3>
                                 <p class="text-muted">Gunakan email untuk memberikan saran dan keluhan.</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">e-del@mail.com</a></strong>
+                                    <li><strong><a href="mailto:">admin@gmail.com</a></strong>
                                     </li>
                                 </ul>
                             </div>
