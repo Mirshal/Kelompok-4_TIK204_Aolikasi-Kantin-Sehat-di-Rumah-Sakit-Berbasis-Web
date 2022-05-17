@@ -1,6 +1,6 @@
 <?php
     session_start();  
-    include 'protect.php'; protect
+    include 'protect.php'; 
     include 'koneksi.php';
     if (!$_SESSION['keranjang']) {
         header("location: cart.php");
