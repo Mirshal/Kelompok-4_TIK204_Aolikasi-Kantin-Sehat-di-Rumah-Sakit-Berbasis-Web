@@ -14,7 +14,7 @@ include 'protect.php';
     <meta name="keywords" content="">
 
     <title>
-        E-CANHEAL : Information Delivery Food Order by E-CANHEAL
+        E-Del : Information Delivery Order Tel-U
     </title>
 
     <meta name="keywords" content="">
@@ -145,8 +145,8 @@ include 'protect.php';
                                 <h3><i class="fa fa-map-marker"></i> Alamat</h3>
                                 <p>Universitas Syiah Kuala
                                     <br> Jl. Teuku Nyak Arief No.441
-                                    <br>Terusan Buah Batu
-                                    <br>Dayeuhkolot
+                                    <br>Kopelma Darussalam
+                                    <br>Syiah Kuala
                                     <br>
                                     <strong>Bandung</strong>
                                 </p>
