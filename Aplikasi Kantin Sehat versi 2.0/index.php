@@ -155,7 +155,7 @@ _________________________________________________________ -->
                     <div class="icon"><i class="fa fa-star"></i>
                     </div>
                     <h3>Rating</h3>
-                    <p>Berikan Rating kepada makanan sehat yang kamu pesan</p>
+                    <p>Berikan Rating untuk Makanan sehat yang kamu Pesan</p>
                 </div>
             </div>
 
