@@ -143,12 +143,12 @@ include 'protect.php';
                         <div class="row">
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-map-marker"></i> Alamat</h3>
-                                <p>Telkom University
-                                    <br>Jalan Telekomunikasi No.1
-                                    <br>Terusan Buah Batu
-                                    <br>Dayeuhkolot
+                                <p>Universitas Syiah Kuala
+                                    <br>Jalan Teuku Nyak Arief
+                                    <br>Syiah Kuala
+                                    <br>Aceh 23111
                                     <br>
-                                    <strong>Bandung</strong>
+                                    <strong>Banda Aceh</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
