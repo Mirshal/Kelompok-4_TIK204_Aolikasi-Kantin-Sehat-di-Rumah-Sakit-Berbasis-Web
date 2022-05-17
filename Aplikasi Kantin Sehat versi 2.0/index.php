@@ -279,7 +279,7 @@ _________________________________________________________ -->
  <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© E-CANHEAL 2018</p>
+            <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
             <p class="pull-right">Alright Reserved by E-CANHEAL
