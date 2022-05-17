@@ -14,7 +14,7 @@ include 'protect.php';
     <meta name="keywords" content="">
 
     <title>
-        E-Del : Information Delivery Order Tel-U
+         E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
 
     <meta name="keywords" content="">
@@ -191,10 +191,10 @@ include 'protect.php';
  <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© E-DEL 2018</p>
+            <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by 11Fingers
+            <p class="pull-right">Alright Reserved by E-CANHEAL
             </p>
         </div>
     </div>
