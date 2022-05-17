@@ -155,7 +155,7 @@ include 'protect.php';
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-phone"></i> Call center</h3>
                                 <p class="text-muted">Untuk fast respon silahkan hubungi nomer berikut. </p>
-                                <p><strong>+0812223334</strong>
+                                <p><strong>+628514257722</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
