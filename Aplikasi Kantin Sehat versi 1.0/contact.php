@@ -14,7 +14,7 @@ include 'protect.php';
     <meta name="keywords" content="">
 
     <title>
-        E-Del : Information Delivery Order Tel-U
+        E-CANHEAL : Information Delivery Food Order by E-CANHEAL
     </title>
 
     <meta name="keywords" content="">
@@ -145,8 +145,8 @@ include 'protect.php';
                                 <h3><i class="fa fa-map-marker"></i> Alamat</h3>
                                 <p>Universitas Syiah Kuala
                                     <br> Jl. Teuku Nyak Arief No.441
-                                    <br>Kopelma Darussalam
-                                    <br>Syiah Kuala
+                                    <br>Terusan Buah Batu
+                                    <br>Dayeuhkolot
                                     <br>
                                     <strong>Banda Aceh</strong>
                                 </p>
@@ -163,7 +163,7 @@ include 'protect.php';
                                 <h3><i class="fa fa-envelope"></i> Email</h3>
                                 <p class="text-muted">Gunakan email untuk memberikan saran dan keluhan.</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">e-del@mail.com</a></strong>
+                                    <li><strong><a href="mailto:">e-canheal@gmail.com</a></strong>
                                     </li>
                                 </ul>
                             </div>
@@ -191,10 +191,10 @@ include 'protect.php';
  <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© E-DEL 2018</p>
+            <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by 11Fingers
+            <p class="pull-right">Alright Reserved by E-CANHEAL
             </p>
         </div>
     </div>
