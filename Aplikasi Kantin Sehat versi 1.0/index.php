@@ -16,7 +16,7 @@
     <meta name="keywords" content="">
 
     <title>
-         E-CANHEAL : Information Delivery Food Order by E-CANHEAL  
+        E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
 
     <meta name="keywords" content="">
@@ -67,7 +67,7 @@
 
                 <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="logo.png" class="hidden-xs">
-                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-CANHEAL - go to homepage</span>
+                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-Del - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -155,7 +155,7 @@ _________________________________________________________ -->
                     <div class="icon"><i class="fa fa-star"></i>
                     </div>
                     <h3>Rating</h3>
-                    <p>Berikan Rating untuk Makanan sehat yang kamu Pesan</p>
+                    <p>Berikan Rating kepada makanan sehat yang kamu pesan</p>
                 </div>
             </div>
 
@@ -173,7 +173,7 @@ _________________________________________________________ -->
                     <div class="icon"><i class="fa fa-thumbs-up"></i>
                     </div>
                     <h3>Informasi Lengkap</h3>
-                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin area Rumah Sakit yang telah Terverifikasi</p>
+                    <p>Aplikasi ini akan memberikan informasi lengkap mengenai menu makanan sehat di kantin Rumah Sakit yang telah terverifikasi</p>
                 </div>
             </div>
         </div>
@@ -282,7 +282,7 @@ _________________________________________________________ -->
             <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by E-CANHEAL
+            <p class="pull-right">Alright Reserved by E-CANHEAL Team
             </p>
         </div>
     </div>
