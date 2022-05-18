@@ -51,7 +51,7 @@
         <div class="container">
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
-                    <li><a href="profile.php">Welcome, <?php echo $_SESSION['login']['nama_pelanggan']; ?></a>
+                    <li><a href="profile.php">Welcome to E-CANHEAL, <?php echo $_SESSION['login']['nama_pelanggan']; ?></a>
                     </li>
                     <li><a href="logout.php">Logout</a>
                     </li>
