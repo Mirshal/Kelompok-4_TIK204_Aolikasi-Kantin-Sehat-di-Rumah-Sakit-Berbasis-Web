@@ -16,7 +16,7 @@ include 'protect.php';
     <title>
          E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
-
+        
     <meta name="keywords" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
@@ -68,7 +68,7 @@ include 'protect.php';
 
                 <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="logo.png" class="hidden-xs">
-                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-Del - go to homepage</span>
+                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-CANHEAL - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -143,19 +143,19 @@ include 'protect.php';
                         <div class="row">
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-map-marker"></i> Alamat</h3>
-                                <p>Telkom University
-                                    <br>Jalan Telekomunikasi No.1
-                                    <br>Terusan Buah Batu
-                                    <br>Dayeuhkolot
+                                <p>Universitas Syiah Kuala
+                                    <br>Jalan Teuku Nyak Arief
+                                    <br>Syiah Kuala
+                                    <br>Aceh 23111
                                     <br>
-                                    <strong>Bandung</strong>
+                                    <strong>Banda Aceh</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-phone"></i> Call center</h3>
                                 <p class="text-muted">Untuk fast respon silahkan hubungi nomer berikut. </p>
-                                <p><strong>+0812223334</strong>
+                                <p><strong>+628514257722</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
@@ -163,7 +163,7 @@ include 'protect.php';
                                 <h3><i class="fa fa-envelope"></i> Email</h3>
                                 <p class="text-muted">Gunakan email untuk memberikan saran dan keluhan.</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">e-del@mail.com</a></strong>
+                                    <li><strong><a href="mailto:">admin@gmail.com</a></strong>
                                     </li>
                                 </ul>
                             </div>
