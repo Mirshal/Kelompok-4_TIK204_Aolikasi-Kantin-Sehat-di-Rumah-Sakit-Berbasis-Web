@@ -262,7 +262,7 @@ $id=$_GET['id'];
             <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by 11Fingers
+            <p class="pull-right">Alright Reserved by E-CANHEAL
             </p>
         </div>
     </div>
