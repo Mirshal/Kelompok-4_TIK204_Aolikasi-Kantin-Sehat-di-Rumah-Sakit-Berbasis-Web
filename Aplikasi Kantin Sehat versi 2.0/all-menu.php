@@ -97,7 +97,7 @@
 
                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="logo.png" class="hidden-xs">
-                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-Del - go to homepage</span>
+                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-CANHEAL - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -270,10 +270,10 @@
  <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© E-DEL 2018</p>
+            <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by 11Fingers
+            <p class="pull-right">Alright Reserved by E-CANHEAL TEAM
             </p>
         </div>
     </div>
