@@ -16,7 +16,7 @@
     <meta name="keywords" content="">
 
     <title>
-        E-CANHEALTH : Information Delivering Ordering Food 
+        E-CANHEAL : Information Delivery Food Order by E-CANHEAL 
     </title>
 
     <meta name="keywords" content="">
