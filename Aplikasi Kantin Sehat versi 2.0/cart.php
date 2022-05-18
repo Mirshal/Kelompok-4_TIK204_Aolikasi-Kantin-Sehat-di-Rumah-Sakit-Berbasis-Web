@@ -20,7 +20,7 @@ if (!$_SESSION['keranjang']) {
     <meta name="keywords" content="">
 
     <title>
-        E-Del : Information Delivery Order Tel-U
+        E-CANHEAL : Information Delivering Ordering Food
     </title>
 
     <meta name="keywords" content="">
@@ -254,7 +254,7 @@ if (!$_SESSION['keranjang']) {
             <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by E-CANHEAL
+            <p class="pull-right">Alright Reserved by E-CANHEAL Team
             </p>
         </div>
     </div>
