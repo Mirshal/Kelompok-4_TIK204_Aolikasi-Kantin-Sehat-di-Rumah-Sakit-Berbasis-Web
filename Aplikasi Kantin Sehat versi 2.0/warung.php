@@ -51,7 +51,7 @@
         <div class="container">
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
-                    <li><a href="profile.php">Welcome, <?php echo $_SESSION['login']['nama_pelanggan']; ?></a>
+                    <li><a href="profile.php">Welcome to E-CANHEAL, <?php echo $_SESSION['login']['nama_pelanggan']; ?></a>
                     </li>
                     <li><a href="logout.php">Logout</a>
                     </li>
@@ -70,7 +70,7 @@
 
                 <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="logo.png" class="hidden-xs">
-                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-Del - go to homepage</span>
+                    <img src="logo.png" class="visible-xs"><span class="sr-only">E-CANHEAL - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
