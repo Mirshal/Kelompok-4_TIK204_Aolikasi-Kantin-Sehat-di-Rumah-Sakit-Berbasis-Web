@@ -254,7 +254,7 @@ h1 {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 .box {
-  background: #fff;
+  background: #a6db97;
   margin: 0 0 30px;
   border: solid 1px #e6e6e6;
   -webkit-box-sizing: border-box;
@@ -940,8 +940,8 @@ h1 {
   background-color: #4a7f45;
 }
 #copyright {
-  background: #333;
-  color: #ccc;
+  background: #007a9f;
+  color: #f4f1f1;
   padding: 20px 0;
   font-size: 12px;
 }
@@ -1248,8 +1248,8 @@ h1 {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-bottom-color: #e6e6e6;
+  background-color: #5f98f0cc;
+  border-bottom-color: #13f700;
 }
 .navbar-default .navbar-brand {
   color: #777777;
