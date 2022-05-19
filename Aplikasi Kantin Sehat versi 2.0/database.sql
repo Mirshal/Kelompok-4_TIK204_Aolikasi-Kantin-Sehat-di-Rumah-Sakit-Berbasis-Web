@@ -134,7 +134,8 @@ INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok`, `foto_
 (11, 'Air kelapa', 8000, 30, 'Air kelapa.jpg', 'Air kelapa adalah salah satu minuman sehat selain air putih yang baik dikonsumsi rutin. Pilih air kelapa yang benar-benar murni dan tidak diberi pemanis tambahan. Tak hanya rasanya segar, di dalamnya juga mengandung banyak nutrisi, antioksidan, dan mineral yang diperlukan tubuh.', 10, 1),
 (12, 'Air Mineral', 3000, 50, 'air mineral.jpg', 'Air mineral sangat bagus bagi kesehatan. Tak hanya bisa menghilangkan dahaga dan haus, tetapi juga bisa mencegah dehidrasi, menjaga kesehatan sendi dan otot, dan juga menurunkan berat badan.', 15, 1),
 (13, 'Jahe Hangat', 5000, 20, 'jahe hangat.jpg', 'Minum air jahe hangat atau teh jahe sangat baik untuk sistem pencernaan. Aman dikonsumsi pagi hari saat perut kosong, bahkan jahe hangat bisa meredakan mual, muntah, dan juga diare. Jika ingin lebih manis, tambahkan madu sebagai penyeimbang rasa.', 9, 1),
-(14, 'Teh Hijau', 5000, 20, 'teh hijau.jpg', 'Memulai hari atau menikmati senja dengan secangkir teh hijau juga bisa menjadi pilihan minuman yang sehat dan menyegarkan. Di dalamnya, ada kandungan antioksidan tinggi yang baik untuk metabolisme tubuh. Tak hanya itu, teh hijau juga bisa membantu proses pembakaran lemak.', 9, 1);
+(14, 'Teh Hijau', 5000, 20, 'teh hijau.jpg', 'Memulai hari atau menikmati senja dengan secangkir teh hijau juga bisa menjadi pilihan minuman yang sehat dan menyegarkan. Di dalamnya, ada kandungan antioksidan tinggi yang baik untuk metabolisme tubuh. Tak hanya itu, teh hijau juga bisa membantu proses pembakaran lemak.', 9, 1),
+(15, 'paket 1', 17000, 20, 'paket 1.jpg', 'paket ini terdiri dari nasi merah dan bermacam - macam sayuran. Dengan memesan paket ini kebutuhan makanan bergizi akan seimbang dan sudah cukup komplit.', 16, 1);
 --
 -- struktur data untuk table `warung`
 --
