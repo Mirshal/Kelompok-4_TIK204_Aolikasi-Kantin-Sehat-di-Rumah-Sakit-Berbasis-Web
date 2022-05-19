@@ -252,7 +252,7 @@
             <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by E-CANHEAL
+            <p class="pull-right">Alright Reserved by E-CANHEAL Team
             </p>
         </div>
     </div>
