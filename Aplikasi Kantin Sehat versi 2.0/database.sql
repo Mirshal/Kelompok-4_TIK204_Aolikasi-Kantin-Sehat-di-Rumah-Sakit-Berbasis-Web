@@ -122,7 +122,7 @@ CREATE TABLE `produk` (
 -- masukkan barang --
 INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok`, `foto_produk`, `deskripsi_produk`, `likes`, `id_warung`) VALUES
 (1, 'Salad', 15000, 10, 'salad.jpg', 'Salad terdiri dari tomat, selada, timun, wortel, madu, minyak zaitun, dan campuran mayonaise', 10, 1),
-(2, 'Gado gado', 8000, 10, 'Gado gado.jpg', 'Gado gado merupakan salah satu menu sarapan sehat yang cocok dikonsumsi oleh anda yang saat ini sedang melakukan diet.', 4, 1),
+(2, 'Gado gado', 8000, 10, 'gado2.jpg', 'Gado gado merupakan salah satu menu sarapan sehat yang cocok dikonsumsi oleh anda yang saat ini sedang melakukan diet.', 4, 1),
 (3, 'Salmon Saus Bawang Putih dan Madu', 20000, 5, 'salmon.jpg', 'Salmon kaya akan asam lemak omega-3 yang telah terbukti mengurangi peradangan, menurunkan tekanan darah, dan menurunkan faktor risiko penyakit. Makanan ini sangat di rekomendasikan untuk kesehatan', 8, 1),
 (4, 'Sate Daging Sapi Tanpa Lemak dengan Selada Air dan Timun', 15000, 5, 'Sate_Daging.jpg', 'Daging sapi merupakan salah satu sumber protein hewani yang baik untuk tubuh. Dengan kandungan lemaknya yang rendah Rasa daging sapi yang gurih akan semakin nikmat jika disantap dengan selada dan juga timun. ', 6, 1),
 (5, 'Tuna dengan Kacang Putih dan Salad Adas', 20000, 5, 'ikan tuna.jpg', 'Kandungan Omega-3 yang ada di dalam tuna juga memiliki banyak sekali manfaat untuk tubuh apalagi ditambah dengan campuran kacang putih, tuna dan juga bawang Bombay', 6, 1),
