@@ -3,6 +3,6 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #0dceee;
+  color: rgb(5, 140, 14);
+  background-color: #f4ce00;
 }

@@ -1,10 +1,8 @@
-<?php
-    session_start();  
-    include 'protect.php'; 
-    include 'koneksi.php';
-    if (!$_SESSION['keranjang']) {
-        header("location: cart.php");
-    }
+<?php 
+session_start();
+include 'protect.php';
+include 'koneksi.php';
+$id=$_GET['id'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +40,39 @@
 
     <link rel="shortcut icon" href="logo.png">
 
+    <style>
+        #content{
+            margin-bottom: 54px;
+        }
+
+        #copyright {
+        position: fixed;
+        /*padding: 10px 0;*/
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        }
+
+        @media (max-width: 991px) {
+            #content{
+                margin-bottom: 54px;
+            }
+            #copyright p {
+                margin-bottom: 0px;
+            }
+        }
+    </style>
+    <script src="asset/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#printbtn").click(function(){
+                alert('Button DiKlik!');
+        });   
+    </script>
 </head>
 
 <body>
@@ -120,10 +151,6 @@
                     <?php
                     }
                 ?>
-            </div>
-
-            <!--/.nav-collapse -->
-
         </div>
         <!-- /.container -->
     </div>
@@ -134,111 +161,94 @@
     <div id="all">
         <div id="content">
             <div class="container">
-                <div class="col-md-3">
-                </div>
-
-                <div class="col-md-13" id="customer-order">
-                    <div class="box">
-                        <h1>Detail Pembelian : </h1>
-
-                        <p class="lead">Berikut rincian pembelian makanan sehat anda </p>
-
+                <a href="prosescetak.php?id=<?php echo $id;?>" class="btn btn-success pull-right" style="color: #fff; text-decoration: none; margin-right: 5px; margin-top: 10px;">Cetak Nota</a>
+                    <a href="all-menu.php" class="btn btn-warning pull-right" style="color: #fff; text-decoration: none; margin-right: 15px; margin-top: 10px;">Belanja lagi</a>
+                <div class="col-md-13" style="margin-top: 5px;" id="nota">
+                    <div class="box" id="contact">
+                        <h1>Nota Pembelian #<?php echo $_GET['id']; ?></h1>
+                        <p class="lead">Berikut nota pembelian anda :</p>
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table table-bordered">
                                 <thead>
                                     <tr>
+                                        <th>No</th>
                                         <th>Menu</th>
-                                        <th>Nama Produk</th>
+                                        <th>Info Warung</th>
+                                        <th>Harga</th>
                                         <th>Jumlah</th>
-                                        <th>Harga Satuan</th>
-                                        <th>Total</th>
+                                        <th>Subtotal</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php 
-                                        $total = 0; 
+                                        $no=1;
+                                        $total=0;
                                     ?>
-                                   <?php foreach ($_SESSION["keranjang"] as $id_produk => $jumlah): ?>
-                                    <?php 
-                                        $query = $conn->query("SELECT * FROM produk 
-                                            WHERE id_produk='$id_produk'");
-                                        $data=$query->fetch_assoc();
-                                        $subharga=$data['harga_produk']*$jumlah;
-                                        $total = $total+$subharga;
-                                        $total_jumlah=count($_SESSION['keranjang']);
-                                        $ongkir=1000*$total_jumlah;
-                                        $bayar=$total+$ongkir;                                        
-                                    ?>
-                                    <tr>
-                                        <td>
-                                            <a href="detail_produk.php?id=<?php echo $data['id_produk']; ?>">
-                                                <img src="foto_produk/<?php echo $data['foto_produk'];?>" alt="">
-                                            </a>
-                                        </td>
-                                        <td><a href="foto_produk/<?php echo $data['foto_produk'];?>"><?php echo $data['nama_produk']; ?></a></td>
-                                        
-                                        <td><?php echo $jumlah;?></td>
-                                        <td>Rp.<?php echo number_format($data['harga_produk']); ?></td>
-                                        <td>Rp.<?php echo number_format($subharga); ?></td>
-                                    </tr>
-                                    <?php endforeach ?>
+                                    <?php $query=$conn->query("SELECT * FROM pembelian_produk JOIN produk 
+                                        ON pembelian_produk.id_produk=produk.id_produk JOIN warung ON produk.id_warung=warung.id_warung
+                                        WHERE pembelian_produk.id_pembelian='$_GET[id]'"); ?>
+                                    <?php while ( $data=$query->fetch_assoc()) {
+                                        $subharga=$data['harga_produk']*$data['jumlah'];
+                                        ?>            
+                                        <tr>
+                                            <td><?php echo $no++; ?></td>
+                                            <td><?php echo $data['nama_produk']; ?></td>
+                                            <td><?php echo $data['nama_warung']; ?> (<?php echo $data['telepon_warung']; ?>)</td>
+                                            <td>Rp.<?php echo number_format($data['harga_produk']); ?></td>
+                                            <td><?php echo $data['jumlah'] ?></td>
+                                            <td>Rp.<?php echo number_format($data['harga_produk']*$data['jumlah']); ?></td>
+                                        </tr>
+                                        <?php
+                                    } ?>
                                 </tbody>
                                 <tfoot>
+                                    <?php 
+                                        $query2=$conn->query("SELECT * FROM pembelian WHERE id_pembelian=$_GET[id]");
+                                        $data2=$query2->fetch_assoc();
+                                    ?>
                                     <tr>
                                         <th colspan="5" class="text-right">Total Pembelian</th>
-                                        <th>Rp.<?php echo number_format($total); ?></th>
+                                        <th>Rp.<?php echo number_format($data2['jumlah_pembelian']); ?></th>
                                     </tr>
                                     <tr>
                                         <th colspan="5" class="text-right">Ongkos Kirim</th>
-                                        <th>Rp.<?php echo $ongkir; ?></th>
+                                        <th>Rp.<?php echo number_format($data2['ongkir']); ?></th>
                                     </tr>
                                     <tr>
                                         <th colspan="5" class="text-right"><b>Total</b></th>
-                                        <th><b>Rp.<?php echo number_format($bayar); ?></b></th>
+                                        <th><b>Rp.<?php echo number_format($data2['total_pembelian']); ?></b></th>
                                     </tr>
                                 </tfoot>
                             </table>
-
                         </div>
-                        <!-- /.table-responsive -->
-
                         <div class="row">
-                        </div>
-                        <form method="POST">
-                            <div class="box-footer">
-                                <div class="pull-right">
-                                    <!-- <button class="btn btn-default"><i class="fa fa-refresh"></i> Update Cart</button> -->
-                                    <button type="submit" class="btn btn-primary" name="submit">Checkout<i class="fa fa-chevron-right"></i></button>
-                                </div>
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-file"></i> Data Pembelian</h3>
+                                <p><b>No.Pembelian : <?php echo $data2['id_pembelian']; ?></b>
+                                    <br>Tanggal : <?php echo $data2['tanggal_pembelian']; ?>
+                                    <br>Total : Rp.<?php echo number_format($data2['total_pembelian']); ?>
+                                </p>
                             </div>
-                        </form>
-                        <?php 
-                            if (isset($_POST['submit'])) {
-                                $id_pelanggan = $_SESSION['login']['id_pelanggan'];
-                                $tanggal_pembelian = date('Y-m-d');
-                                //Simpan data pembelian ke tabel pembelian
-                                $conn->query("INSERT INTO pembelian VALUES ('','$tanggal_pembelian','$total','$ongkir','$bayar','$id_pelanggan')");
-
-                                //get id_pembelian barusan
-                                $id_pembelian_barusan = $conn->insert_id;
-                                $stok=$data['stok'];
-
-                                foreach ($_SESSION['keranjang'] as $id_produk => $jumlah) {
-                                    $stok_update = $stok-$jumlah;
-                                    $conn->query("INSERT INTO pembelian_produk VALUES ('','$jumlah','$id_pembelian_barusan','$id_produk')");
-                                    $conn->query("UPDATE produk SET stok='$stok_update' WHERE id_produk=$id_produk");
-                                }
-
-                                unset($_SESSION['keranjang']);
-
-                                echo "<script>alert('Pembelian Sukses')</script>";
-                                echo "<script>location='nota.php?id=$id_pembelian_barusan'</script>";
-
-                            }
-                        ?>
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-user"></i> Pelanggan</h3>
+                                <p><strong><?php echo $_SESSION['login']['nama_pelanggan']; ?></strong><br>
+                                    <?php echo $_SESSION['login']['telepon_pelanggan']; ?><br>
+                                    <?php echo $_SESSION['login']['email_pelanggan']; ?>
+                                </p>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                            <div class="col-sm-4">
+                                <h3><i class="fa fa-road"></i> Pengiriman</h3>
+                                <p><b> <?php echo $_SESSION['login']['alamat_pelanggan']; ?></b>
+                                    <br>Ongkos Kirim : Rp.<?php echo $data2['ongkir']; ?>
+                                </p>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                        </div>
+                        <!-- /.row -->
                     </div>
                 </div>
-
+                <!-- /.col-md-9 -->
             </div>
             <!-- /.container -->
         </div>
@@ -252,20 +262,14 @@
             <p class="pull-left">© E-CANHEAL 2022</p>
         </div>
         <div class="col-md-6">
-            <p class="pull-right">Alright Reserved by E-CANHEAL Team
+            <p class="pull-right">Alright Reserved by E-CANHEAL
             </p>
         </div>
     </div>
 </div>
 <!-- *** COPYRIGHT END *** -->
-
-
-
 </div>
 <!-- /#all -->
-
-
-    
 
     <!-- *** SCRIPTS TO INCLUDE ***
  _________________________________________________________ -->
@@ -277,9 +281,5 @@
  <script src="asset/js/bootstrap-hover-dropdown.js"></script>
  <script src="asset/js/owl.carousel.min.js"></script>
  <script src="asset/js/front.js"></script>
-
-
-
 </body>
-
 </html>
