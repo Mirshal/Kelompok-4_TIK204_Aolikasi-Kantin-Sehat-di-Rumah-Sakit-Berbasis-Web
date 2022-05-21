@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 header("Content-type: application/force-download");
-header("Content-Disposition: attachment; filename=EDEL_notapembelian_".$_GET[id].".xls");
+header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GET[id].".xls");
 ?>
 
 <center><h2>Nota Pembelian #<?php echo $_GET['id']?></h2></center>

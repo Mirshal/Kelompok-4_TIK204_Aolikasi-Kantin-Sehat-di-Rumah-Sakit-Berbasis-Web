@@ -167,6 +167,10 @@ include 'koneksi.php';
                                                 <td style="padding: 18px"><b>Alamat</b></td>
                                                 <td style="padding: 18px"><?php echo $data['alamat_pelanggan']; ?></td>
                                             </tr>
+                                            <tr>
+                                                <td style="padding: 18px"><b>Ruang</b></td>
+                                                <td style="padding: 18px"><?php echo $data['ruang_pelanggan']; ?></td>
+                                            </tr>
                                         </thead>
                                     </table>
                                 </div>
@@ -203,6 +207,10 @@ include 'koneksi.php';
                                                         <input type="text" class="form-control" name="alamat" value="<?php echo $data['alamat_pelanggan']; ?>">
                                                     </div>
                                                     <div class="form-group">
+                                                        <label>Ruang</label>
+                                                        <input type="text" class="form-control" name="ruang" value="<?php echo $data['ruang_pelanggan']; ?>">
+                                                    </div>
+                                                    <div class="form-group">
                                                         <!-- <label>Foto Profil &nbsp</label> -->
                                                         <img src="foto_profil/<?php echo $data['foto_profil'];?>" onerror="this.src='foto_profil/default.png';" width="100">
                                                     </div>
@@ -230,7 +238,7 @@ include 'koneksi.php';
                                                                 $lampiran= $nama_folder . basename($namafoto);
                                                                 rename($lampiran, $nama_folder.$id_pelanggan.".".$ext_foto);
 
-                                                                $result1 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',foto_profil='$name_fix' WHERE id_pelanggan='$id_pelanggan'");
+                                                                $result1 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',ruang_pelanggan='$_POST[ruang]',foto_profil='$name_fix' WHERE id_pelanggan='$id_pelanggan'");
                                                                 if ($result1 == true) {
                                                                     echo "<script>alert('Ubah Profil Berhasil');</script>";
                                                                     echo "<script>location='profile.php';</script>";   
@@ -245,7 +253,7 @@ include 'koneksi.php';
                                                             echo "<script>alert('Masukkan tipe file foto');</script>";
                                                         }
                                                     }else{
-                                                        $result2 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]' WHERE id_pelanggan='$id_pelanggan'");
+                                                        $result2 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',ruang_pelanggan='$_POST[ruang]' WHERE id_pelanggan='$id_pelanggan'");
                                                         if ($result2 == true) {
                                                             echo "<script>alert('Ubah Profil Berhasil');</script>";
                                                             echo "<script>location='profile.php';</script>";                                
