@@ -231,9 +231,9 @@ $id=$_GET['id'];
                             </div>
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-user"></i> Pelanggan</h3>
-                                <p><strong><?php echo $_SESSION['login']['nama_pelanggan']; ?></strong><br>
-                                    <?php echo $_SESSION['login']['telepon_pelanggan']; ?><br>
-                                    <?php echo $_SESSION['login']['email_pelanggan']; ?>
+                                <p><strong>Nama&nbsp:&nbsp<?php echo $_SESSION['login']['nama_pelanggan']; ?></strong><br>
+                                    No.Tel&nbsp:&nbsp<?php echo $_SESSION['login']['telepon_pelanggan']; ?><br>
+                                     Email&nbsp&nbsp:&nbsp<?php echo $_SESSION['login']['email_pelanggan']; ?>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
