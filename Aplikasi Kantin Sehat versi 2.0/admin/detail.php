@@ -11,6 +11,9 @@ $detail=$query->fetch_assoc();
 	Nomer Telepon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<?php echo $detail['telepon_pelanggan']; ?><br>
 	Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<?php echo $detail['email_pelanggan']; ?>
 </p>
+<p><strong>
+	Rincian Pesanan Anda 
+</strong></p>
 <p>
 	Tanggal : <?php echo $detail['tanggal_pembelian']; ?><br>
 	Total : Rp.<?php echo number_format($detail['total_pembelian']); ?>
