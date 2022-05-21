@@ -89,11 +89,12 @@
 					$password = mysqli_escape_string($conn,$_POST['password']);
 					$phone = mysqli_escape_string($conn,$_POST['phone']);
 					$alamat = mysqli_escape_string($conn,$_POST['alamat']);
+					$ruang = mysqli_escape_string($conn,$_POST['ruang']);
 
 					$password = md5($password);
 					$validasi=$conn->query("SELECT * FROM pelanggan WHERE email_pelanggan='$email'");
 					$q_validasi=$validasi->fetch_assoc();
-					if ($nama == '' || $email == '' || $password == '' || $phone == '' || $alamat == '') {
+					if ($nama == '' || $email == '' || $password == '' || $phone == '' || $alamat == '' || $ruang == '') {
 						echo "<script>alert('Harap isi semua data');</script>";
 					}
 					else if ($q_validasi==TRUE) {
