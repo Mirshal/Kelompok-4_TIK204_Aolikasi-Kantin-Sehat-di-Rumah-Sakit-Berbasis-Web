@@ -8,8 +8,8 @@ $detail=$query->fetch_assoc();
 ?>
 <p><strong><?php echo $detail['nama_pelanggan']; ?></strong><br></p>
 <p>
-	Nomer Telepon: <?php echo $detail['telepon_pelanggan']; ?><br>
-	Email: <?php echo $detail['email_pelanggan']; ?>
+	Nomer Telepon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<?php echo $detail['telepon_pelanggan']; ?><br>
+	Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<?php echo $detail['email_pelanggan']; ?>
 </p>
 <p>
 	Tanggal : <?php echo $detail['tanggal_pembelian']; ?><br>
