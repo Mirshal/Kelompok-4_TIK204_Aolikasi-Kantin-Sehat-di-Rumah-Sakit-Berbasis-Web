@@ -64,6 +64,7 @@ CREATE TABLE `pelanggan` (
   `nama_pelanggan` varchar(100) DEFAULT NULL,
   `telepon_pelanggan` varchar(15) DEFAULT NULL,
   `alamat_pelanggan` varchar(100) NOT NULL,
+  `ruang_pelanggan` varchar(100) NOT NULL,
   `foto_profil` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -71,7 +72,7 @@ CREATE TABLE `pelanggan` (
 -- memasukkan data dalam table `pelanggan`
 --
 
-INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`, `nama_pelanggan`, `telepon_pelanggan`, `alamat_pelanggan`, `foto_profil`) VALUES
+INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`, `nama_pelanggan`, `telepon_pelanggan`, `alamat_pelanggan`, `ruang_pelanggan`, `foto_profil`) VALUES
 (1, 'customer@gmail.com', '91ec1f9324753048c0096d036a694f86', 'Ahmad Mufadhdhal', '085155328822', 'Darussalam, Banda Aceh', 'ahmad.jpg');
 
 -- --------------------------------------------------------
@@ -225,7 +226,7 @@ ALTER TABLE `likes`
 -- AUTO_INCREMENT for table `pelanggan`
 --
 ALTER TABLE `pelanggan`
-  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `pembelian`
