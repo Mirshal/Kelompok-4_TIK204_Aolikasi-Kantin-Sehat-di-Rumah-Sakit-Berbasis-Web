@@ -76,6 +76,7 @@ include '../koneksi.php';
 					$username = mysqli_escape_string($conn,$_POST['username']);
 					$password = mysqli_escape_string($conn,$_POST['password']);
 
+					$password = md5($password);
 					$query=$conn->query("SELECT * FROM admin WHERE username='$_POST[username]' AND password='$password'");
 					$result=$query->num_rows;
 					if ($result==1) {
