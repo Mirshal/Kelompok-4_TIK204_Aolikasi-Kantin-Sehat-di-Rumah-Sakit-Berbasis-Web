@@ -15,8 +15,9 @@ $detail=$query->fetch_assoc();
 	Rincian Pesanan Anda 
 </strong></p>
 <p>
-	Tanggal : <?php echo $detail['tanggal_pembelian']; ?><br>
-	Total : Rp.<?php echo number_format($detail['total_pembelian']); ?>
+	Tanggal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?php echo $detail['tanggal_pembelian']; ?><br>
+	Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Rp.<?php echo number_format($detail['total_pembelian']); ?><br>
+	Dikirim Ke Ruang&nbsp;:&nbsp;<?php echo $detail['ruang_pelanggan']; ?><br>
 </p>
 
 <div class="table-responsive">	
