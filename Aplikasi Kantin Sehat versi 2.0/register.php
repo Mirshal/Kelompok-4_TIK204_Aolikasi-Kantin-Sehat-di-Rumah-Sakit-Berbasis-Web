@@ -92,7 +92,7 @@
 						echo "<script>alert('Harap isi semua data');</script>";
 					}
 					else if ($q_validasi==TRUE) {
-						echo "<script>alert('Email telah terdaftar');</script>";
+						echo "<script>alert('Email anda telah terdaftar');</script>";
 					}
 					else if ($q_validasi != TRUE){
 						$query=$conn->query("INSERT INTO pelanggan(email_pelanggan,password_pelanggan,nama_pelanggan,telepon_pelanggan,alamat_pelanggan) VALUES('$email','$password','$nama','$phone','$alamat')");
