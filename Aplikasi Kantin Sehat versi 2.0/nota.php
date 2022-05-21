@@ -240,6 +240,7 @@ $id=$_GET['id'];
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-road"></i> Pengiriman</h3>
                                 <p><b> <?php echo $_SESSION['login']['alamat_pelanggan']; ?></b>
+                                <p><b> Ruang : <?php echo $_SESSION['login']['ruang_pelanggan']; ?></b>
                                     <br>Ongkos Kirim : Rp.<?php echo $data2['ongkir']; ?>
                                 </p>
                             </div>
