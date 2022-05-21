@@ -136,7 +136,7 @@ include 'protect.php';
                     <div class="box" id="contact">
                         <h2>Tentang Kami</h2>
 
-                        <p class="lead">E-Canheal Adalah sebuah aplikasi yang dimanfaatkan dalam lingkungan rumah sakit sebagai perhatian kepada seluruh pengunjung, pasien, dan petugas kesehatan untuk mengkonsumsi makanan yang sehat dan bergizi</p>
+                        <p class="lead">E-Canheal Adalah sebuah aplikasi yang dimanfaatkan dalam lingkungan rumah sakit sebagai perhatian kepada seluruh pengunjung, pasien, dan petugas kesehatan untuk mengkonsumsi makanan yang sehat dan bergizi. Kesehatan menjadi hal terpenting dalam kehidupan dan bisa membahagiakan orang-orang tercinta</p>
                         
 
                         <h2>Hubungi</h2>
