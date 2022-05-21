@@ -238,7 +238,7 @@ include 'koneksi.php';
                                                                 $lampiran= $nama_folder . basename($namafoto);
                                                                 rename($lampiran, $nama_folder.$id_pelanggan.".".$ext_foto);
 
-                                                                $result1 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',foto_profil='$name_fix' WHERE id_pelanggan='$id_pelanggan'");
+                                                                $result1 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',ruang_pelanggan='$_POST[ruang]',foto_profil='$name_fix' WHERE id_pelanggan='$id_pelanggan'");
                                                                 if ($result1 == true) {
                                                                     echo "<script>alert('Ubah Profil Berhasil');</script>";
                                                                     echo "<script>location='profile.php';</script>";   
@@ -253,7 +253,7 @@ include 'koneksi.php';
                                                             echo "<script>alert('Masukkan tipe file foto');</script>";
                                                         }
                                                     }else{
-                                                        $result2 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]' WHERE id_pelanggan='$id_pelanggan'");
+                                                        $result2 = $conn->query("UPDATE pelanggan SET email_pelanggan='$_POST[email]',nama_pelanggan='$_POST[nama]',telepon_pelanggan='$_POST[telepon]',alamat_pelanggan='$_POST[alamat]',ruang_pelanggan='$_POST[ruang]' WHERE id_pelanggan='$id_pelanggan'");
                                                         if ($result2 == true) {
                                                             echo "<script>alert('Ubah Profil Berhasil');</script>";
                                                             echo "<script>location='profile.php';</script>";                                
