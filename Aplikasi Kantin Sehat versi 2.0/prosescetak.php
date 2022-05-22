@@ -56,5 +56,5 @@ header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GE
   <?php
   ?>
 </table>
-<h4><b><i>Nb : Silahkan hubungi CP warung untuk memesan makanan</i></b></h4>
-<h4><b><i>Terima Kasih Telah Menjadi Pelanggan Kami</i></b></h4>
+<h4><b><i><font color='#000000'>Silahkan hubungi CP untuk menyampaikan keluhan</i></b></h4>
+<h4><b><i><font color='#000000'>Terima Kasih Telah Membeli dan Menjadi Pelanggan Kami</i></b></h4>
