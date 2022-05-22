@@ -137,7 +137,7 @@ INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok`, `foto_
 (13, 'Jahe Hangat', 5000, 20, 'jahe hangat.jpg', 'Minum air jahe hangat atau teh jahe sangat baik untuk sistem pencernaan. Aman dikonsumsi pagi hari saat perut kosong, bahkan jahe hangat bisa meredakan mual, muntah, dan juga diare. Jika ingin lebih manis, tambahkan madu sebagai penyeimbang rasa.', 9, 1),
 (14, 'Teh Hijau', 5000, 20, 'teh hijau.jpg', 'Memulai hari atau menikmati senja dengan secangkir teh hijau juga bisa menjadi pilihan minuman yang sehat dan menyegarkan. Di dalamnya, ada kandungan antioksidan tinggi yang baik untuk metabolisme tubuh. Tak hanya itu, teh hijau juga bisa membantu proses pembakaran lemak.', 9, 1),
 (15, 'paket 1', 17000, 20, 'paket 1.jpg', 'paket ini terdiri dari nasi merah dan bermacam - macam sayuran. Dengan memesan paket ini kebutuhan makanan bergizi akan seimbang dan sudah cukup komplit.', 16, 1),
-(16, 'paket 2', 35000, 8, 'paket 2.jpg', 'paket ini terdiri dari ikan salmon yaang sehat bagi tubuh dan bermacam - macam sayuran. sehingga dapat membantu penyembuhan dengan waktu yang relatif cepat dan menjaga organ penting seperti jantung untuk tetap stabil dan lancar.', 16, 1);
+(16, 'paket 2', 35000, 8, 'Salmon dengan Saus Krim, Nasi, Sup, dan Kue pisang.jpg', 'paket ini terdiri dari ikan salmon yaang sehat bagi tubuh dan bermacam - macam sayuran. sehingga dapat membantu penyembuhan dengan waktu yang relatif cepat dan menjaga organ penting seperti jantung untuk tetap stabil dan lancar.', 16, 1);
 --
 -- struktur data untuk table `warung`
 --
