@@ -50,8 +50,8 @@ header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GE
     <th>Rp.<?php echo number_format($data2['ongkir']); ?></th>
   </tr>
   <tr>
-    <th colspan="5" class="text-right"><b>Total</b></th>
-    <th><b>Rp.<?php echo number_format($data2['total_pembelian']); ?></b></th>
+    <th colspan="5" class="text-right"><b><font color='#FF0000'>Total</b></th>
+    <th><b><font color='#FF0000'>Rp.<?php echo number_format($data2['total_pembelian']); ?></b></th>
   </tr>
   <?php
   ?>
