@@ -5,7 +5,7 @@ header("Content-type: application/force-download");
 header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GET[id].".xls");
 ?>
 
-<center><h2>Nota Pembelian #<?php echo $_GET['id']?></h2></center>
+<center><h2><font color='#20B2AA'>Nota Pembelian #<?php echo $_GET['id']?></h2></center>
     
 <table border="1" cellpadding="5">
   <tr>
