@@ -258,7 +258,7 @@ if (isset($_POST['unliked'])) {
                                         <center><a href="" class="btn btn-default like" id="<?php echo $id_produk; ?>"><i class="fa fa-star-o fa-2x"></i> <b><?php echo $data['likes']; ?> Like</b></a></center>
                                         <?php
                                     }
-                                ?>
+                                ?>setiap penilaian yang anda berikan, sangatlah berharga bagi kami. Terima Kasih telah memberikan kepercayaan kepada kami.
                             </div>
                         </div>
                     </div>

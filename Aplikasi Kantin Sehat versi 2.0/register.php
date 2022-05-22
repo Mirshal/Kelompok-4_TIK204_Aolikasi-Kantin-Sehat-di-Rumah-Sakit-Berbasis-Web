@@ -67,6 +67,11 @@
 						<input class="input100" type="text" name="alamat">
 						<span class="focus-input100" data-placeholder="Insert Your Address"></span>
 					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Enter Place">
+						<input class="input100" type="text" name="place">
+						<span class="focus-input100" data-placeholder="Insert Your Place"></span>
+					</div>
 
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
@@ -84,18 +89,19 @@
 					$password = mysqli_escape_string($conn,$_POST['password']);
 					$phone = mysqli_escape_string($conn,$_POST['phone']);
 					$alamat = mysqli_escape_string($conn,$_POST['alamat']);
+					$ruang = mysqli_escape_string($conn,$_POST['ruang']);
 
 					$password = md5($password);
 					$validasi=$conn->query("SELECT * FROM pelanggan WHERE email_pelanggan='$email'");
 					$q_validasi=$validasi->fetch_assoc();
-					if ($nama == '' || $email == '' || $password == '' || $phone == '' || $alamat == '') {
+					if ($nama == '' || $email == '' || $password == '' || $phone == '' || $alamat == '' || $ruang == '') {
 						echo "<script>alert('Harap isi semua data');</script>";
 					}
 					else if ($q_validasi==TRUE) {
 						echo "<script>alert('Email anda telah terdaftar');</script>";
 					}
 					else if ($q_validasi != TRUE){
-						$query=$conn->query("INSERT INTO pelanggan(email_pelanggan,password_pelanggan,nama_pelanggan,telepon_pelanggan,alamat_pelanggan) VALUES('$email','$password','$nama','$phone','$alamat')");
+						$query=$conn->query("INSERT INTO pelanggan(email_pelanggan,password_pelanggan,nama_pelanggan,telepon_pelanggan,alamat_pelanggan,ruang_pelanggan) VALUES('$email','$password','$nama','$phone','$alamat','$ruang')");
 						if ($query) {
 							echo "<br>";
 							echo "<div class='alert alert-info'>Sign Up Succeeded</div>";

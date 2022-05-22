@@ -64,6 +64,7 @@ CREATE TABLE `pelanggan` (
   `nama_pelanggan` varchar(100) DEFAULT NULL,
   `telepon_pelanggan` varchar(15) DEFAULT NULL,
   `alamat_pelanggan` varchar(100) NOT NULL,
+  `ruang_pelanggan` varchar(100) NOT NULL,
   `foto_profil` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -71,7 +72,7 @@ CREATE TABLE `pelanggan` (
 -- memasukkan data dalam table `pelanggan`
 --
 
-INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`, `nama_pelanggan`, `telepon_pelanggan`, `alamat_pelanggan`, `foto_profil`) VALUES
+INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`, `nama_pelanggan`, `telepon_pelanggan`, `alamat_pelanggan`, `ruang_pelanggan`, `foto_profil`) VALUES
 (1, 'customer@gmail.com', '91ec1f9324753048c0096d036a694f86', 'Ahmad Mufadhdhal', '085155328822', 'Darussalam, Banda Aceh', 'ahmad.jpg');
 
 -- --------------------------------------------------------
@@ -135,7 +136,8 @@ INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `stok`, `foto_
 (12, 'Air Mineral', 3000, 50, 'air mineral.jpg', 'Air mineral sangat bagus bagi kesehatan. Tak hanya bisa menghilangkan dahaga dan haus, tetapi juga bisa mencegah dehidrasi, menjaga kesehatan sendi dan otot, dan juga menurunkan berat badan.', 15, 1),
 (13, 'Jahe Hangat', 5000, 20, 'jahe hangat.jpg', 'Minum air jahe hangat atau teh jahe sangat baik untuk sistem pencernaan. Aman dikonsumsi pagi hari saat perut kosong, bahkan jahe hangat bisa meredakan mual, muntah, dan juga diare. Jika ingin lebih manis, tambahkan madu sebagai penyeimbang rasa.', 9, 1),
 (14, 'Teh Hijau', 5000, 20, 'teh hijau.jpg', 'Memulai hari atau menikmati senja dengan secangkir teh hijau juga bisa menjadi pilihan minuman yang sehat dan menyegarkan. Di dalamnya, ada kandungan antioksidan tinggi yang baik untuk metabolisme tubuh. Tak hanya itu, teh hijau juga bisa membantu proses pembakaran lemak.', 9, 1),
-(15, 'paket 1', 17000, 20, 'paket 1.jpg', 'paket ini terdiri dari nasi merah dan bermacam - macam sayuran. Dengan memesan paket ini kebutuhan makanan bergizi akan seimbang dan sudah cukup komplit.', 16, 1);
+(15, 'paket 1', 17000, 20, 'paket 1.jpg', 'paket ini terdiri dari nasi merah dan bermacam - macam sayuran. Dengan memesan paket ini kebutuhan makanan bergizi akan seimbang dan sudah cukup komplit.', 16, 1),
+(16, 'paket 2', 35000, 8, 'paket 2.jpg', 'paket ini terdiri dari ikan salmon yaang sehat bagi tubuh dan bermacam - macam sayuran. sehingga dapat membantu penyembuhan dengan waktu yang relatif cepat dan menjaga organ penting seperti jantung untuk tetap stabil dan lancar.', 16, 1);
 --
 -- struktur data untuk table `warung`
 --
@@ -225,7 +227,7 @@ ALTER TABLE `likes`
 -- AUTO_INCREMENT for table `pelanggan`
 --
 ALTER TABLE `pelanggan`
-  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `pembelian`

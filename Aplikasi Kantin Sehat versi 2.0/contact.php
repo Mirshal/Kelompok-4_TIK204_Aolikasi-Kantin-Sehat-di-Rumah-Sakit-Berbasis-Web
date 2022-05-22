@@ -134,7 +134,12 @@ include 'protect.php';
 
                 <div class="col-md-13">
                     <div class="box" id="contact">
-                        <h1>Hubungi Kami</h1>
+                        <h2>Tentang Kami</h2>
+
+                        <p class="lead">E-Canheal Adalah sebuah aplikasi yang dimanfaatkan dalam lingkungan rumah sakit sebagai perhatian kepada seluruh pengunjung, pasien, dan petugas kesehatan untuk mengkonsumsi makanan yang sehat dan bergizi. Kesehatan menjadi hal terpenting dalam kehidupan dan bisa membahagiakan orang-orang tercinta</p>
+                        
+
+                        <h2>Hubungi</h2>
 
                         <p class="lead">Untuk keluhan dan saran silahkan hubungi kami melalui kontak berikut :</p>
 
@@ -230,14 +235,14 @@ include 'protect.php';
     function initialize() {
         var mapOptions = {
             zoom: 15,
-            center: new google.maps.LatLng(-6.9710199,107.6261982,17),
+            center: new google.maps.LatLng(5.568111476076641, 95.36802067468697),
             mapTypeId: google.maps.MapTypeId.ROAD,
             scrollwheel: false
         }
         var map = new google.maps.Map(document.getElementById('map'),
             mapOptions);
 
-        var myLatLng = new google.maps.LatLng(-6.9710199,107.6261982,17);
+        var myLatLng = new google.maps.LatLng(5.568111476076641, 95.36802067468697);
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map

@@ -5,16 +5,16 @@ header("Content-type: application/force-download");
 header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GET[id].".xls");
 ?>
 
-<center><h2>Nota Pembelian #<?php echo $_GET['id']?></h2></center>
+<center><h2><font color='#20B2AA'>Nota Pembelian #<?php echo $_GET['id']?></h2></center>
     
 <table border="1" cellpadding="5">
   <tr>
-    <th>No</th>
-    <th>Menu</th>
-    <th>Info Warung</th>
-    <th>Harga</th>
-    <th>Jumlah</th>
-    <th>Subtotal</th>
+    <th><font color='#32CD32'>No</th>
+    <th><font color='#32CD32'>Menu</th>
+    <th><font color='#32CD32'>Info Warung</th>
+    <th><font color='#32CD32'>Harga</th>
+    <th><font color='#32CD32'>Jumlah</th>
+    <th><font color='#32CD32'>Subtotal</th>
   </tr>
   <?php
   
@@ -50,11 +50,11 @@ header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GE
     <th>Rp.<?php echo number_format($data2['ongkir']); ?></th>
   </tr>
   <tr>
-    <th colspan="5" class="text-right"><b>Total</b></th>
-    <th><b>Rp.<?php echo number_format($data2['total_pembelian']); ?></b></th>
+    <th colspan="5" class="text-right"><b><font color='#FF0000'>Total</b></th>
+    <th><b><font color='#FF0000'>Rp.<?php echo number_format($data2['total_pembelian']); ?></b></th>
   </tr>
   <?php
   ?>
 </table>
-<h4><b><i>Nb : Silahkan hubungi CP warung untuk memesan makanan</i></b></h4>
-<h4><b><i>Terima Kasih Telah Menjadi Pelanggan Kami</i></b></h4>
+<h4><b><i><font color='#000000'>Silahkan hubungi CP untuk menyampaikan keluhan</i></b></h4>
+<h4><b><i><font color='#000000'>Terima Kasih Telah Membeli dan Menjadi Pelanggan Kami</i></b></h4>
