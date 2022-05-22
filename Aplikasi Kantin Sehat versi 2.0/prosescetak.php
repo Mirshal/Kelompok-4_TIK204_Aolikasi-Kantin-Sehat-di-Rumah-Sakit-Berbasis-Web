@@ -9,12 +9,12 @@ header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GE
     
 <table border="1" cellpadding="5">
   <tr>
-    <th>No</th>
-    <th>Menu</th>
-    <th>Info Warung</th>
-    <th>Harga</th>
-    <th>Jumlah</th>
-    <th>Subtotal</th>
+    <th><font color='#32CD32'>No</th>
+    <th><font color='#32CD32'>Menu</th>
+    <th><font color='#32CD32'>Info Warung</th>
+    <th><font color='#32CD32'>Harga</th>
+    <th><font color='#32CD32'>Jumlah</th>
+    <th><font color='#32CD32'>Subtotal</th>
   </tr>
   <?php
   
