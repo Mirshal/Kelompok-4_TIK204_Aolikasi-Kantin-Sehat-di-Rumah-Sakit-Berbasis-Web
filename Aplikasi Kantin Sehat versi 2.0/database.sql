@@ -154,7 +154,7 @@ CREATE TABLE `warung` (
 --
 
 INSERT INTO `warung` (`id_warung`, `nama_warung`, `alamat_warung`, `telepon_warung`) VALUES
-(1, 'KANTIN SEHAT USK', 'Darussalam, Banda Aceh', '085213251');
+(1, 'KANTIN SEHAT RUMAH SAKIT', 'Darussalam, Banda Aceh', '085213251');
 --
 -- Indexes for dumped tables
 --
