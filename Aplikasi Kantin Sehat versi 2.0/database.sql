@@ -73,7 +73,7 @@ CREATE TABLE `pelanggan` (
 --
 
 INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`, `nama_pelanggan`, `telepon_pelanggan`, `alamat_pelanggan`, `ruang_pelanggan`, `foto_profil`) VALUES
-(1, 'customer@gmail.com', '91ec1f9324753048c0096d036a694f86', 'Ahmad Mufadhdhal', '085155328822', 'Darussalam, Banda Aceh', 'ahmad.jpg');
+(1, 'customer@gmail.com', '91ec1f9324753048c0096d036a694f86', 'Ahmad Mufadhdhal', '085155328822', 'Darussalam, Banda Aceh', 'arrahman 7', 'ahmad.jpg');
 
 -- --------------------------------------------------------
 
