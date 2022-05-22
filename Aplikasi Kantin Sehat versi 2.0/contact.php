@@ -235,14 +235,14 @@ include 'protect.php';
     function initialize() {
         var mapOptions = {
             zoom: 15,
-            center: new google.maps.LatLng(-6.9710199,107.6261982,17),
+            center: new google.maps.LatLng(5.568111476076641, 95.36802067468697),
             mapTypeId: google.maps.MapTypeId.ROAD,
             scrollwheel: false
         }
         var map = new google.maps.Map(document.getElementById('map'),
             mapOptions);
 
-        var myLatLng = new google.maps.LatLng(-6.9710199,107.6261982,17);
+        var myLatLng = new google.maps.LatLng(5.568111476076641, 95.36802067468697);
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map
