@@ -138,7 +138,7 @@
                     <!-- *** MENUS AND FILTERS ***-->
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Daftar Warung</h3>
+                            <h3 class="panel-title">Daftar Kantin Sehat</h3>
                         </div>
 
                         <div class="panel-body">
@@ -161,7 +161,7 @@
 
                 <div class="col-md-9">
                     <div class="box">
-                        <h2>Warung Pilihan :</h2>
+                        <h2>Kantin Sehat Pilihan :</h2>
                         <?php 
                         $id_warung=$_GET['id'];
                         $query2=$conn->query("SELECT * FROM warung WHERE id_warung=$id_warung");

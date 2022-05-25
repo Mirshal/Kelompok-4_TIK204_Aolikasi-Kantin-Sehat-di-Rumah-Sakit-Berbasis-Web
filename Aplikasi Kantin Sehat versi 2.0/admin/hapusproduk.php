@@ -8,6 +8,6 @@
 
 	$conn->query("DELETE FROM produk WHERE id_produk='$_GET[id]'");
 
-	echo "<script>alert('Produk Berhasil Dihapus');</script>";
+	echo "<script>alert('Produk Berhasil Dihapus Dari Sistem');</script>";
 	echo "<script>location='index.php?halaman=produk'</script>";
 ?> 

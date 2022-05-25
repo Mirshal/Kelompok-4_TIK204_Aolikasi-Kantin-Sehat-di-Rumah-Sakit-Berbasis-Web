@@ -11,7 +11,7 @@ header("Content-Disposition: attachment; filename=E-CANHEAL_notapembelian_".$_GE
   <tr>
     <th><font color='#32CD32'>No</th>
     <th><font color='#32CD32'>Menu</th>
-    <th><font color='#32CD32'>Info Warung</th>
+    <th><font color='#32CD32'>Info Kantin Sehat</th>
     <th><font color='#32CD32'>Harga</th>
     <th><font color='#32CD32'>Jumlah</th>
     <th><font color='#32CD32'>Subtotal</th>

@@ -3,7 +3,7 @@
 
 <form method="post" enctype="multipart/form-data">
 	<div class="form-group">
-		<label>ID Warung (<i>**Buka tab Warung untuk melihat ID Warung</i>)</label>
+		<label>ID Kantin Sehat (<i>**Buka tab Warung untuk melihat ID Kantin Sehat</i>)</label>
 		<input type="text" class="form-control" name="idwarung">
 	</div>
 	<div class="form-group">

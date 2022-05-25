@@ -185,7 +185,7 @@ if (isset($_POST['unliked'])) {
                      <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Daftar Warung</h3>
+                            <h3 class="panel-title">Daftar Kantin Sehat</h3>
                         </div>
 
                         <div class="panel-body">

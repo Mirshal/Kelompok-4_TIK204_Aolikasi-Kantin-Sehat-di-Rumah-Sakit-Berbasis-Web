@@ -51,7 +51,7 @@
 					</li>
 
                     <li><a href="index.php"><i class="fa fa-home fa-3x"></i> Home</a></li>
-                    <li><a href="index.php?halaman=warung"><i class="fa fa-home fa-3x"></i> Warung</a></li>
+                    <li><a href="index.php?halaman=warung"><i class="fa fa-home fa-3x"></i> Kantin Sehat</a></li>
                     <li><a href="index.php?halaman=produk"><i class="fa fa-gift fa-3x"></i> Produk</a></li>
                     <li><a href="index.php?halaman=pembelian"><i class="fa fa-reorder fa-3x"></i> Pembelian</a></li>
                     <li><a href="index.php?halaman=pelanggan"><i class="fa fa-users fa-3x"></i> Pelanggan</a></li> 

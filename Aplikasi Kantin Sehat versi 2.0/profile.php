@@ -168,7 +168,7 @@ include 'koneksi.php';
                                                 <td style="padding: 18px"><?php echo $data['alamat_pelanggan']; ?></td>
                                             </tr>
                                             <tr>
-                                                <td style="padding: 18px"><b>Ruang</b></td>
+                                                <td style="padding: 18px"><b>Lokasi Terkini</b></td>
                                                 <td style="padding: 18px"><?php echo $data['ruang_pelanggan']; ?></td>
                                             </tr>
                                         </thead>
@@ -207,7 +207,7 @@ include 'koneksi.php';
                                                         <input type="text" class="form-control" name="alamat" value="<?php echo $data['alamat_pelanggan']; ?>">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label>Ruang</label>
+                                                        <label>Lokasi Terkini</label>
                                                         <input type="text" class="form-control" name="ruang" value="<?php echo $data['ruang_pelanggan']; ?>">
                                                     </div>
                                                     <div class="form-group">

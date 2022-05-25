@@ -70,7 +70,7 @@
 					
 					<div class="wrap-input100 validate-input" data-validate="Enter Place">
 						<input class="input100" type="text" name="ruang">
-						<span class="focus-input100" data-placeholder="Insert Your Place"></span>
+						<span class="focus-input100" data-placeholder="Insert Your Current Location"></span>
 					</div>
 
 					<div class="container-login100-form-btn">

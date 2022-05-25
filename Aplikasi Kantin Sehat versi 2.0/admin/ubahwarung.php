@@ -1,12 +1,12 @@
 <?php include 'protect.php'; ?>
-<h2>Ubah Warung</h2>
+<h2>Ubah Kantin Sehat</h2>
 <?php 
 	$query=$conn->query("SELECT * FROM warung WHERE id_warung='$_GET[id]'");
 	$data=$query->fetch_assoc();
 ?>
 <form role="form" method="POST">
 	<div class="form-group">
-		<label>Nama Warung</label>
+		<label>Nama Kantin Sehat</label>
 		<input type="text" class="form-control" name="nama" value="<?php echo $data['nama_warung']; ?>">
 	</div>
 	<div class="form-group">

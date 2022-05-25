@@ -6,7 +6,7 @@
 		<thead>
 			<tr>
 				<th>No</th>
-				<th>Warung</th>
+				<th>Daftar Kantin Sehat</th>
 				<th>Nama Produk</th>
 				<th>Harga</th>
 				<th>Stok</th>

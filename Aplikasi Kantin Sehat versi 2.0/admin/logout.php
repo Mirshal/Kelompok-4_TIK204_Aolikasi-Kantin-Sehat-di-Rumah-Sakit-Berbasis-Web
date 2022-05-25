@@ -1,6 +1,6 @@
 <?php
 	session_destroy();
 
-	echo "<script>alert('Berhasil Logout');</script>";
+	echo "<script>alert('Berhasil Logout Dari Aplikasi E-CANHEAL');</script>";
 	echo "<script>location='login.php';</script>";
 ?>

@@ -1,13 +1,13 @@
 <?php include 'protect.php'; ?>
-<h2>Data Warung</h2>
+<h2>Data Kantin Sehat</h2>
 
 <div class="table-responsive">
 	<table class="table table-bordered">
 		<thead>
 			<tr>
 				<th>No</th>
-				<th>ID Warung</th>
-				<th>Nama Warung</th>
+				<th>ID Kantin Sehat</th>
+				<th>Nama Kantin Sehat</th>
 				<th>Alamat</th>
 				<th>Telepon</th>
 				<th>Action</th>
@@ -33,4 +33,4 @@
 		</tbody>
 	</table>	
 </div>
-<a href="index.php?halaman=tambahwarung" class="btn btn-primary">Tambah Warung</a>
+<a href="index.php?halaman=tambahwarung" class="btn btn-primary">Tambah Kantin Sehat</a>

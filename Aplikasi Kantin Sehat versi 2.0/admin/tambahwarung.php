@@ -1,9 +1,9 @@
 <?php include 'protect.php'; ?>
-<h2>Tambah Warung</h2>
+<h2>Tambah Kantin Sehat</h2>
 
 <form role="form" method="POST">
 	<div class="form-group">
-		<label>Nama Warung</label>
+		<label>Nama Kantin Sehat</label>
 		<input type="text" class="form-control" name="nama">
 	</div>
 	<div class="form-group">
