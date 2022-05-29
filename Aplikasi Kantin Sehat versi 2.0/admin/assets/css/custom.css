@@ -305,7 +305,7 @@ font-weight: 700;
 	
 }
 .navbar-cls-top {
-	background:#4D4D4D;
+	background:#4E99FB;
 	border-bottom:none;
 	
 }
@@ -321,7 +321,7 @@ border:0px solid black;
      
 }
 .navbar-header {
-    background: #A70303;
+    background: #4E99FB;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: #B40101;
